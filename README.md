@@ -107,7 +107,8 @@ https://wokwi.com/projects/440359752595341313
  
 ## Traffic Light and Street Lights
 
-<img width="506" height="460" alt="Screenshot 2025-08-26 165533" src="https://github.com/user-attachments/assets/1710b06f-f5a7-4fec-9e5a-effb632fba1b" />
+<img width="842" height="653" alt="image" src="https://github.com/user-attachments/assets/e1eeb45b-59ea-435b-8f0b-5f7f79600c88" />
+
 
 ### Link
 
