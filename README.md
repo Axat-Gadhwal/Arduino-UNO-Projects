@@ -114,6 +114,49 @@ https://wokwi.com/projects/440359752595341313
 
 https://wokwi.com/projects/440350426734654465
 
+# Resistor Info
+
+Here’s a quick parts count (with typical resistor values) for your setup:
+
+### Traffic lights (R–Y–G)
+
+* **3 LEDs ⇒ 3 resistors**
+
+  * **220 Ω** each (one in series with each LED)
+
+### Street lights (you said 5 LEDs)
+
+* **5 LEDs ⇒ 5 resistors**
+
+  * **220 Ω** each (one per LED)
+
+### LDR / light sensing
+
+* If you use a **4-pin LDR module** (VCC, GND, AO, DO): **0 extra resistors** (it has its own divider onboard).
+* If you use a **bare LDR**: **1 resistor** for the voltage divider (typically **10 kΩ** to GND, LDR to 5 V, junction to analog pin).
+
+### “Weather tower” (no LCD)
+
+Assuming simple LED indicators (e.g., Sunny/Cloudy/Rain or an RGB LED):
+
+* **Three separate LEDs**: **3 × 220 Ω** (one per LED), **total 3 resistors**.
+* **OR one RGB LED** (common cathode/anode): **3 × 220 Ω** (one per color).
+
+### Buzzer, ultrasonic, DHT/rain modules
+
+* **Active buzzer**: usually **no resistor needed** (optional \~**100 Ω** in series if you want to soften volume).
+* **HC-SR04 ultrasonic**: **no resistors**.
+* **DHT11/DHT22** and **rain sensor module**: modules typically **no external resistor** needed (bare DHT sometimes uses a 10 kΩ pull-up, but not on breakout boards).
+
+---
+
+## Totals for your current build
+
+* Traffic (3) + Street (5) LEDs = **8 × 220 Ω**
+* LDR: **0** (module) **or** **1 × 10 kΩ** (bare LDR)
+* Weather tower (example with 3 status LEDs): **+3 × 220 Ω** (or 3 for an RGB)
+
+So, typical total = **11 × 220 Ω** (+**1 × 10 kΩ** only if using a bare LDR).
 
 
 
