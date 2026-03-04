@@ -180,6 +180,10 @@ Measures distance to an obstacle and gives visual/audio feedback:
 * **Yellow LED**: getting close
 * **Red LED + buzzer**: too close
 
+### Diagram
+
+![Ultrasonic Parking Assistant diagram](docs/diagrams/ultrasonic-parking-assistant.svg)
+
 ### Wokwi starter link
 
 https://wokwi.com/projects/new/arduino-uno
@@ -204,6 +208,10 @@ Reads soil moisture and alerts when soil is dry:
 * Buzzer beeps for dry soil
 * Optional LCD displays moisture percentage
 
+### Diagram
+
+![Automatic Plant Watering Alert diagram](docs/diagrams/plant-watering-alert.svg)
+
 ### Wokwi starter link
 
 https://wokwi.com/projects/new/arduino-uno
@@ -227,6 +235,10 @@ Detects movement and turns on light for a fixed duration:
 * No motion → light OFF
 * Great for home/garage security demo
 
+### Diagram
+
+![PIR Motion Security Light diagram](docs/diagrams/pir-motion-security-light.svg)
+
 ### Wokwi starter link
 
 https://wokwi.com/projects/new/arduino-uno
@@ -248,6 +260,10 @@ When hand comes near bin lid, servo opens the lid automatically:
 
 * Distance < threshold → servo opens lid
 * After delay → servo closes lid
+
+### Diagram
+
+![Smart Dustbin diagram](docs/diagrams/smart-dustbin.svg)
 
 ### Wokwi starter link
 

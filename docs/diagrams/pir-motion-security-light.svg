@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320">
+  <defs>
+    <style>
+      .title{font:700 22px Arial,sans-serif;fill:#1f2937}.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10;ry:10}
+      .txt{font:14px Arial,sans-serif;fill:#111827}.wire{stroke:#0f172a;stroke-width:2;fill:none;marker-end:url(#arr)}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/></marker>
+  </defs>
+  <text x="20" y="35" class="title">PIR Motion Security Light - Block Diagram</text>
+  <rect x="40" y="90" width="220" height="160" class="box"/>
+  <text x="95" y="130" class="txt">PIR Sensor</text><text x="65" y="155" class="txt">HIGH when motion is detected</text>
+  <rect x="350" y="70" width="220" height="200" class="box"/>
+  <text x="415" y="115" class="txt">Arduino UNO</text><text x="385" y="140" class="txt">Motion Timer Logic</text><text x="395" y="165" class="txt">Output Control</text>
+  <rect x="660" y="70" width="220" height="90" class="box"/>
+  <text x="745" y="115" class="txt">Relay</text><text x="705" y="140" class="txt">Security Light Output</text>
+  <rect x="660" y="180" width="220" height="90" class="box"/>
+  <text x="745" y="220" class="txt">Status LED</text>
+  <path d="M260 170 L350 170" class="wire"/>
+  <path d="M570 125 L660 125" class="wire"/>
+  <path d="M570 220 L660 225" class="wire"/>
+</svg>
