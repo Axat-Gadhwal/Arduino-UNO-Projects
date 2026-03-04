@@ -158,6 +158,100 @@ Assuming simple LED indicators (e.g., Sunny/Cloudy/Rain or an RGB LED):
 
 So, typical total = **11 × 220 Ω** (+**1 × 10 kΩ** only if using a bare LDR).
 
+---
+
+# More Projects
+
+## 1) Ultrasonic Parking Assistant
+
+### Components
+
+* Arduino UNO
+* HC-SR04 ultrasonic sensor
+* 3 LEDs (green, yellow, red)
+* 3 × 220 Ω resistors
+* Buzzer (active)
+
+### What it does
+
+Measures distance to an obstacle and gives visual/audio feedback:
+
+* **Green LED**: safe distance
+* **Yellow LED**: getting close
+* **Red LED + buzzer**: too close
+
+### Wokwi starter link
+
+https://wokwi.com/projects/new/arduino-uno
+
+---
+
+## 2) Automatic Plant Watering Alert
+
+### Components
+
+* Arduino UNO
+* Soil moisture sensor module
+* 16x2 LCD (optional)
+* 1 LED + 220 Ω resistor
+* Buzzer
+
+### What it does
+
+Reads soil moisture and alerts when soil is dry:
+
+* LED turns ON when moisture falls below threshold
+* Buzzer beeps for dry soil
+* Optional LCD displays moisture percentage
+
+### Wokwi starter link
+
+https://wokwi.com/projects/new/arduino-uno
+
+---
+
+## 3) PIR Motion Security Light
+
+### Components
+
+* Arduino UNO
+* PIR motion sensor (HC-SR501)
+* Relay module or LED lamp simulation
+* 1 LED + 220 Ω resistor (status)
+
+### What it does
+
+Detects movement and turns on light for a fixed duration:
+
+* Motion detected → light ON for 10–20 seconds
+* No motion → light OFF
+* Great for home/garage security demo
+
+### Wokwi starter link
+
+https://wokwi.com/projects/new/arduino-uno
+
+---
+
+## 4) Smart Dustbin (Servo + Ultrasonic)
+
+### Components
+
+* Arduino UNO
+* HC-SR04 ultrasonic sensor
+* Servo motor (SG90)
+* Optional buzzer/LED status
+
+### What it does
+
+When hand comes near bin lid, servo opens the lid automatically:
+
+* Distance < threshold → servo opens lid
+* After delay → servo closes lid
+
+### Wokwi starter link
+
+https://wokwi.com/projects/new/arduino-uno
 
 
 
