@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320">
+  <defs>
+    <style>
+      .title{font:700 22px Arial,sans-serif;fill:#1f2937}.box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10;ry:10}
+      .txt{font:14px Arial,sans-serif;fill:#111827}.wire{stroke:#0f172a;stroke-width:2;fill:none;marker-end:url(#arr)}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/></marker>
+  </defs>
+  <text x="20" y="35" class="title">Automatic Plant Watering Alert - Block Diagram</text>
+  <rect x="40" y="90" width="220" height="160" class="box"/>
+  <text x="70" y="130" class="txt">Soil Moisture Sensor</text><text x="75" y="155" class="txt">Analog Moisture Value</text>
+  <rect x="350" y="70" width="220" height="200" class="box"/>
+  <text x="415" y="115" class="txt">Arduino UNO</text><text x="380" y="140" class="txt">Moisture Threshold</text><text x="390" y="165" class="txt">Alert Decision</text>
+  <rect x="660" y="70" width="220" height="90" class="box"/>
+  <text x="750" y="120" class="txt">LED</text><text x="715" y="145" class="txt">Dry Soil Indicator</text>
+  <rect x="660" y="180" width="220" height="90" class="box"/>
+  <text x="740" y="215" class="txt">Buzzer</text><text x="700" y="240" class="txt">Dry Soil Alert Tone</text>
+  <path d="M260 170 L350 170" class="wire"/>
+  <path d="M570 125 L660 125" class="wire"/>
+  <path d="M570 220 L660 225" class="wire"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="320" viewBox="0 0 920 320">
+  <defs>
+    <style>
+      .title{font:700 22px Arial,sans-serif;fill:#1f2937}
+      .box{fill:#f8fafc;stroke:#334155;stroke-width:2;rx:10;ry:10}
+      .txt{font:14px Arial,sans-serif;fill:#111827}
+      .wire{stroke:#0f172a;stroke-width:2;fill:none;marker-end:url(#arr)}
+    </style>
+    <marker id="arr" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <text x="20" y="35" class="title">Ultrasonic Parking Assistant - Block Diagram</text>
+  <rect x="40" y="80" width="220" height="180" class="box"/>
+  <text x="95" y="120" class="txt">HC-SR04</text>
+  <text x="85" y="145" class="txt">TRIG, ECHO</text>
+  <text x="80" y="170" class="txt">Distance Data</text>
+
+  <rect x="350" y="70" width="220" height="200" class="box"/>
+  <text x="415" y="115" class="txt">Arduino UNO</text>
+  <text x="380" y="140" class="txt">Distance Thresholds</text>
+  <text x="410" y="165" class="txt">Control Logic</text>
+
+  <rect x="660" y="70" width="220" height="90" class="box"/>
+  <text x="730" y="115" class="txt">LEDs</text>
+  <text x="695" y="140" class="txt">Green / Yellow / Red</text>
+
+  <rect x="660" y="180" width="220" height="90" class="box"/>
+  <text x="742" y="230" class="txt">Buzzer</text>
+
+  <path d="M260 170 L350 170" class="wire"/>
+  <path d="M570 130 L660 130" class="wire"/>
+  <path d="M570 220 L660 225" class="wire"/>
+</svg>
